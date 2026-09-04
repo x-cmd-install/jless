@@ -7,7 +7,7 @@ about:
   head: e6cdef7
   archived: false
   latestVersion: v0.9.0
-  collectedAt: 2026-09-04T19:46:09Z
+  collectedAt: 2026-09-04T20:55:20Z
 timeline:
   created: 2021-04-24
   lastCommit: 2024-06-01
@@ -81,5 +81,38 @@ total:
   openIssue: 75
   commit: 276
 ---
+path: /home/runner/.x-repo/github.com/PaulJuliusMartinez/jless
+collectedAt: 2026-09-04T20:55:21Z
+loc:
+  Rust:
+    code: 8745
+    comments: 1000
+    blanks: 1412
+    files: 17
+  Svg:
+    code: 6965
+    comments: 0
+    blanks: 0
+    files: 9
+  Toml:
+    code: 33
+    comments: 0
+    blanks: 3
+    files: 1
+  Json:
+    code: 18
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 369
+    blanks: 89
+    files: 5
+total:
+  code: 15761
+  comments: 1494
+  blanks: 1516
+  files: 33
 ---
 
