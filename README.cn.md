@@ -4,13 +4,25 @@
 
 jless is a command-line JSON viewer designed for reading, exploring, and searching through JSON data.
 
-![jless](https://repo.x-cmd.io/jless.svg)
+![jless](https://repo.x-cmd.io/jless.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install jless
 ```
+
+## 代码规模
+
+合计: **15,761** 行代码（覆盖前 5 种语言、共 **33** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 8,745 | 1,000 | 1,412 | 17 |
+| Svg | 6,965 | 0 | 0 | 9 |
+| Toml | 33 | 0 | 3 | 1 |
+| Json | 18 | 0 | 0 | 1 |
+| Markdown | 0 | 369 | 89 | 5 |
 
 ## 源代码
 
@@ -23,7 +35,6 @@ x install jless
 - **最新版本**: `v0.9.0` (2023-07-17)
 - **最近提交**: 2024-06-01
 - **Release 含资产**: 3 个
-- **发布时间**: 2023-07-17T02:51:34Z
 
 ## 流行度
 
@@ -38,20 +49,34 @@ x install jless
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 4 | 0 | 1 | 0 |
+| last720d | 2024-09-20 | 0 | 0 | 5 | 1 | 11 | 0 |
 
-## 代码规模
+## Release 资产
 
-合计: **15,761** 行代码（覆盖前 5 种语言、共 **33** 个文件）。
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [jless-v0.9.0-aarch64-apple-darwin.zip](https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-aarch64-apple-darwin.zip) | 1.1 MiB | `native/darwin/arm64` |
+| [jless-v0.9.0-x86_64-apple-darwin.zip](https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-apple-darwin.zip) | 978.8 KiB | `native/darwin/x64` |
+| [jless-v0.9.0-x86_64-unknown-linux-gnu.zip](https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-unknown-linux-gnu.zip) | 1.1 MiB | `native/linux/x64/glibc` |
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 8,745 | 1,000 | 1,412 | 17 |
-| Svg | 6,965 | 0 | 0 | 9 |
-| Toml | 33 | 0 | 3 | 1 |
-| Json | 18 | 0 | 0 | 1 |
-| Markdown | 0 | 369 | 89 | 5 |
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/jless) 上共有 **41** 个发行版报告此项目。**38** 个 ✅ 已是最新上游版本，**3** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.9.0` | ✅ latest |
+| Debian 14 | `0.9.0` | ✅ latest |
+| Arch | `0.9.0` | ✅ latest |
+| Homebrew | `0.9.0` | ✅ latest |
+| Nix unstable | `0.9.0` | ✅ latest |
+| Void | `0.9.0` | ✅ latest |
+| Alpine edge | `0.9.0` | ✅ latest |
+| openSUSE Tumbleweed | `0.9.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -62,4 +87,4 @@ jless 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:37:40Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:32:42Z._
