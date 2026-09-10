@@ -1,24 +1,65 @@
 # jless
 
+[中文版本](./README.cn.md)
+
 jless is a command-line JSON viewer designed for reading, exploring, and searching through JSON data.
 
-- **Upstream**: <https://github.com/PaulJuliusMartinez/jless>
-- **Homepage**: <https://jless.io>
-- **Latest release**: `v0.9.0` (2023-07-17)
-- **Last commit**: 2024-06-01
-- **License**: MIT
-- **Stars**: 5474 · **Forks**: 119 · **Open issues**: 124 · **Contributors**: 8
+![jless](https://repo.x-cmd.io/jless.svg)
 
-## Installation
+## Install
 
 ```sh
 x install jless
 ```
 
-See <https://x-cmd.com/install/jless> for details.
+## Source
 
-## Data
+- **Upstream**: <https://github.com/PaulJuliusMartinez/jless>
+- **Homepage**: <https://jless.io>
+- **License**: MIT
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
+## Release
 
-_Last regenerated: 2026-09-09T20:02:12Z._
+- **Latest**: `v0.9.0` (2023-07-17)
+- **Last commit**: 2024-06-01
+- **Assets in release**: 3
+- **Published**: 2023-07-17T02:51:34Z
+
+## Popularity
+
+- **Stars**: 5,474 · **Forks**: 119 · **Open issues**: 124 · **Contributors**: 8
+
+## Totals (cumulative)
+
+- **Releases**: 5 · **Merged PRs**: 14 · **Open PRs**: 19 · **Closed issues**: 49 · **Open issues**: 75 · **Commits**: 276
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-15 | 0 | 0 | 4 | 0 | 1 | 0 |
+
+## Code size
+
+Total: **15,761** lines of code across **33** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Rust | 8,745 | 1,000 | 1,412 | 17 |
+| Svg | 6,965 | 0 | 0 | 9 |
+| Toml | 33 | 0 | 3 | 1 |
+| Json | 18 | 0 | 0 | 1 |
+| Markdown | 0 | 369 | 89 | 5 |
+
+## Improve this data
+
+Install metadata for jless lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `jless` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+
+- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
+- **Edit the package entry**: <https://github.com/x-cmd/edit/main/jless.yml> (or whichever path the index uses)
+
+The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+
+_Snapshot: `data/card/260910.yml` · 2026-09-10T05:37:40Z._
