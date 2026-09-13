@@ -1,21 +1,17 @@
-- repo: homebrew
-  srcname: jless
-  visiblename: jless
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: rust-jless
+  binnames:
+    - jless
+  visiblename: rust-jless
   version: 0.9.0
-  origversion: null
+  origversion: 0.9.0-2
   status: newest
-  summary: Command-line pager for JSON data
-- repo: nix_stable_25_11
-  srcname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: Command-line pager for JSON data
   maintainers:
-    - jfchevrette@gmail.com
-  licenses:
-    - MIT
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ivancarvalho@google.com
+  categories:
+    - utils
 - repo: alpine_3_17
   subrepo: community
   srcname: jless
@@ -195,20 +191,6 @@
     - ivancarvalho@google.com
   categories:
     - utils
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: rust-jless
-  binnames:
-    - jless
-  visiblename: rust-jless
-  version: 0.9.0
-  origversion: 0.9.0-2
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ivancarvalho@google.com
-  categories:
-    - utils
 - repo: freebsd
   srcname: textproc/jless
   binname: jless
@@ -229,6 +211,13 @@
   origversion: null
   status: newest
   summary: Command-line JSON viewer
+- repo: homebrew
+  srcname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: Command-line pager for JSON data
 - repo: kali_rolling
   subrepo: main
   srcname: rust-jless
@@ -323,6 +312,17 @@
   summary: Command-line pager for JSON data
   maintainers:
     - figsoda@pm.me
+    - jfchevrette@gmail.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: Command-line pager for JSON data
+  maintainers:
     - jfchevrette@gmail.com
   licenses:
     - MIT

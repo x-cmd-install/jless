@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1141884,
       "digest": null,
-      "download_count": 4806,
+      "download_count": 4815,
       "created_at": "2023-07-17T02:38:53Z",
       "updated_at": "2023-07-17T02:38:54Z",
       "browser_download_url": "https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-aarch64-apple-darwin.zip"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1002244,
       "digest": null,
-      "download_count": 4905,
+      "download_count": 4910,
       "created_at": "2023-07-17T02:38:55Z",
       "updated_at": "2023-07-17T02:38:56Z",
       "browser_download_url": "https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-apple-darwin.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1136617,
       "digest": null,
-      "download_count": 100459,
+      "download_count": 100497,
       "created_at": "2023-07-17T02:38:54Z",
       "updated_at": "2023-07-17T02:38:55Z",
       "browser_download_url": "https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-unknown-linux-gnu.zip"
