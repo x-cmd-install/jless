@@ -38,7 +38,7 @@ Total: **15,761** lines of code across **33** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 5,513 · **Forks**: 122 · **Open issues**: 127 · **Contributors**: 8
+- **Stars**: 5,512 · **Forks**: 122 · **Open issues**: 127 · **Contributors**: 8
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **15,761** lines of code across **33** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 0 | 1 | 2 | 0 |
-| 90d | 2026-07-24 | 0 | 0 | 0 | 1 | 2 | 0 |
-| last180d | 2026-04-25 | 0 | 0 | 0 | 1 | 2 | 0 |
-| 360d | 2025-10-27 | 0 | 0 | 4 | 1 | 2 | 0 |
-| last720d | 2024-11-01 | 0 | 0 | 5 | 2 | 12 | 0 |
+| 30d | 2026-09-23 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 0 | 1 | 2 | 0 |
+| 90d | 2026-07-25 | 0 | 0 | 0 | 1 | 2 | 0 |
+| last180d | 2026-04-26 | 0 | 0 | 0 | 1 | 2 | 0 |
+| 360d | 2025-10-28 | 0 | 0 | 4 | 1 | 2 | 0 |
+| last720d | 2024-11-02 | 0 | 0 | 5 | 2 | 12 | 0 |
 
 ## Release assets
 
@@ -62,6 +62,21 @@ Total: **15,761** lines of code across **33** files in the top 5 languages.
 | [jless-v0.9.0-aarch64-apple-darwin.zip](https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-aarch64-apple-darwin.zip) | 1.1 MiB | `native/darwin/arm64` |
 | [jless-v0.9.0-x86_64-apple-darwin.zip](https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-apple-darwin.zip) | 978.8 KiB | `native/darwin/x64` |
 | [jless-v0.9.0-x86_64-unknown-linux-gnu.zip](https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-unknown-linux-gnu.zip) | 1.1 MiB | `native/linux/x64/glibc` |
+
+## Distribution status
+
+Reported by **41** distros on [repology.org](https://repology.org/project/jless). **38** are ✅ on the latest upstream release, **3** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.9.0` | ✅ latest |
+| Debian 14 | `0.9.0` | ✅ latest |
+| Arch | `0.9.0` | ✅ latest |
+| Homebrew | `0.9.0` | ✅ latest |
+| Nix unstable | `0.9.0` | ✅ latest |
+| Void | `0.9.0` | ✅ latest |
+| Alpine edge | `0.9.0` | ✅ latest |
+| openSUSE Tumbleweed | `0.9.0` | ✅ latest |
 
 ## Improve this data
 
@@ -72,4 +87,4 @@ Install metadata for jless lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:24:36Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:31:21Z._
