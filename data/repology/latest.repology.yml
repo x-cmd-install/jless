@@ -1,51 +1,3 @@
-- repo: nix_stable_24_05
-  srcname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: A command-line pager for JSON data
-  maintainers:
-    - figsoda@pm.me
-    - jfchevrette@gmail.com
-  licenses:
-    - MIT
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-jless
-  binnames:
-    - jless
-  visiblename: rust-jless
-  version: 0.9.0
-  origversion: 0.9.0-4
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ivancarvalho@google.com
-  categories:
-    - utils
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: jless
-  binname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: 0.9.0-3
-  status: newest
-  summary: A command-line pager for JSON data
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: jless
-  binname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: 0.9.0-3
-  status: newest
-  summary: A command-line pager for JSON data
-  licenses:
-    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: jless
@@ -122,17 +74,6 @@
   summary: command-line pager for JSON data
   maintainers:
     - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: jless
-  binname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: 0.9.0-3
-  status: newest
-  summary: A command-line pager for JSON data
   licenses:
     - MIT
 - repo: alpine_3_23
@@ -305,6 +246,51 @@
     - MIT
   categories:
     - textproc
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: jless
+  binname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: 0.9.0-3
+  status: newest
+  summary: A command-line pager for JSON data
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: jless
+  binname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: 0.9.0-3
+  status: newest
+  summary: A command-line pager for JSON data
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: jless
+  binname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: 0.9.0-3
+  status: newest
+  summary: A command-line pager for JSON data
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: A command-line pager for JSON data
+  maintainers:
+    - figsoda@pm.me
+    - jfchevrette@gmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_24_11
   srcname: jless
   visiblename: jless
@@ -461,6 +447,20 @@
     - pkgsrc-users@netbsd.org
   categories:
     - textproc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-jless
+  binnames:
+    - jless
+  visiblename: rust-jless
+  version: 0.9.0
+  origversion: 0.9.0-4
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ivancarvalho@google.com
+  categories:
+    - utils
 - repo: termux
   srcname: jless
   binname: jless
