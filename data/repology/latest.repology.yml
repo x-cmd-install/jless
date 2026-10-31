@@ -1,11 +1,3 @@
-- repo: gnuguix
-  srcname: jless
-  binname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: Command-line JSON viewer
 - repo: alpine_3_17
   subrepo: community
   srcname: jless
@@ -211,6 +203,14 @@
     - lwhsu@freebsd.org
   categories:
     - textproc
+- repo: gnuguix
+  srcname: jless
+  binname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: Command-line JSON viewer
 - repo: homebrew
   srcname: jless
   visiblename: jless
