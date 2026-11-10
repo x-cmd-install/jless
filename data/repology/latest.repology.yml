@@ -1,4 +1,4 @@
-- repo: arch
+- repo: parabola
   subrepo: extra
   srcname: jless
   binname: jless
@@ -9,50 +9,15 @@
   summary: A command-line pager for JSON data
   licenses:
     - MIT
-- repo: crates_io
+- repo: nix_stable_25_11
   srcname: jless
   visiblename: jless
   version: 0.9.0
   origversion: null
   status: newest
-  summary: A command-line JSON viewer
-- repo: alpine_3_19
-  subrepo: community
-  srcname: jless
-  binname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: 0.9.0-r0
-  status: newest
-  summary: command-line pager for JSON data
+  summary: Command-line pager for JSON data
   maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: jless
-  binname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: 0.9.0_1
-  status: newest
-  summary: Pager for JSON data
-  maintainers:
-    - leah@vuxu.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: jless
-  binname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: 0.9.0-r0
-  status: newest
-  summary: command-line pager for JSON data
-  maintainers:
-    - kdaudt@alpinelinux.org
+    - jfchevrette@gmail.com
   licenses:
     - MIT
 - repo: alpine_3_17
@@ -81,6 +46,39 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: jless
+  binname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: 0.9.0-r0
+  status: newest
+  summary: command-line pager for JSON data
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: jless
+  binname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: 0.9.0-r0
+  status: newest
+  summary: command-line pager for JSON data
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: homebrew
+  srcname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: Command-line pager for JSON data
 - repo: alpine_3_21
   subrepo: community
   srcname: jless
@@ -162,6 +160,24 @@
     - MIT
   categories:
     - Development/Tools
+- repo: arch
+  subrepo: extra
+  srcname: jless
+  binname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: 0.9.0-3
+  status: newest
+  summary: A command-line pager for JSON data
+  licenses:
+    - MIT
+- repo: crates_io
+  srcname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: A command-line JSON viewer
 - repo: debian_14
   subrepo: forky/main
   srcname: rust-jless
@@ -224,13 +240,6 @@
   origversion: null
   status: newest
   summary: Command-line JSON viewer
-- repo: homebrew
-  srcname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: Command-line pager for JSON data
 - repo: kali_rolling
   subrepo: main
   srcname: rust-jless
@@ -328,17 +337,6 @@
     - jfchevrette@gmail.com
   licenses:
     - MIT
-- repo: nix_stable_25_11
-  srcname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: Command-line pager for JSON data
-  maintainers:
-    - jfchevrette@gmail.com
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: jless
   visiblename: jless
@@ -413,17 +411,6 @@
     - MIT
   categories:
     - Productivity/Text/Utilities
-- repo: parabola
-  subrepo: extra
-  srcname: jless
-  binname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: 0.9.0-3
-  status: newest
-  summary: A command-line pager for JSON data
-  licenses:
-    - MIT
 - repo: pkgsrc_2026_2
   srcname: textproc/jless
   binname: jless
@@ -512,3 +499,16 @@
     - ivancarvalho@google.com
   categories:
     - universe/utils
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: jless
+  binname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: 0.9.0_1
+  status: newest
+  summary: Pager for JSON data
+  maintainers:
+    - leah@vuxu.org
+  licenses:
+    - MIT
