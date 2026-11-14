@@ -9,6 +9,19 @@
   summary: A command-line pager for JSON data
   licenses:
     - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: jless
+  binname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: 0.9.0-r0
+  status: newest
+  summary: command-line pager for JSON data
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: jless
@@ -108,19 +121,6 @@
   licenses:
     - MIT
 - repo: alpine_3_24
-  subrepo: community
-  srcname: jless
-  binname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: 0.9.0-r0
-  status: newest
-  summary: command-line pager for JSON data
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_edge
   subrepo: community
   srcname: jless
   binname: jless
