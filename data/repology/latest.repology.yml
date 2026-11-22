@@ -1,11 +1,55 @@
-- repo: gnuguix
+- repo: crates_io
   srcname: jless
-  binname: jless
   visiblename: jless
   version: 0.9.0
   origversion: null
   status: newest
-  summary: Command-line JSON viewer
+  summary: A command-line JSON viewer
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: jless
+  binname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: 0.9.0-3
+  status: newest
+  summary: A command-line pager for JSON data
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: jless
+  binname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: 0.9.0-3
+  status: newest
+  summary: A command-line pager for JSON data
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: jless
+  binname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: 0.9.0-3
+  status: newest
+  summary: A command-line pager for JSON data
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: A command-line pager for JSON data
+  maintainers:
+    - figsoda@pm.me
+    - jfchevrette@gmail.com
+  licenses:
+    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: jless
@@ -84,6 +128,18 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
+- repo: nix_stable_24_11
+  srcname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: Command-line pager for JSON data
+  maintainers:
+    - figsoda@pm.me
+    - jfchevrette@gmail.com
+  licenses:
+    - MIT
 - repo: alpine_3_23
   subrepo: community
   srcname: jless
@@ -150,13 +206,6 @@
   summary: A command-line pager for JSON data
   licenses:
     - MIT
-- repo: crates_io
-  srcname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: A command-line JSON viewer
 - repo: debian_14
   subrepo: forky/main
   srcname: rust-jless
@@ -211,6 +260,14 @@
     - lwhsu@freebsd.org
   categories:
     - textproc
+- repo: gnuguix
+  srcname: jless
+  binname: jless
+  visiblename: jless
+  version: 0.9.0
+  origversion: null
+  status: newest
+  summary: Command-line JSON viewer
 - repo: homebrew
   srcname: jless
   visiblename: jless
@@ -246,63 +303,6 @@
     - MIT
   categories:
     - textproc
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: jless
-  binname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: 0.9.0-3
-  status: newest
-  summary: A command-line pager for JSON data
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: jless
-  binname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: 0.9.0-3
-  status: newest
-  summary: A command-line pager for JSON data
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: jless
-  binname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: 0.9.0-3
-  status: newest
-  summary: A command-line pager for JSON data
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: A command-line pager for JSON data
-  maintainers:
-    - figsoda@pm.me
-    - jfchevrette@gmail.com
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: jless
-  visiblename: jless
-  version: 0.9.0
-  origversion: null
-  status: newest
-  summary: Command-line pager for JSON data
-  maintainers:
-    - figsoda@pm.me
-    - jfchevrette@gmail.com
-  licenses:
-    - MIT
 - repo: nix_stable_25_05
   srcname: jless
   visiblename: jless
