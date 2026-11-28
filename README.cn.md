@@ -48,12 +48,12 @@ x install jless
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-09-28 | 0 | 0 | 2 | 0 | 1 | 0 |
-| 90d | 2026-08-29 | 0 | 0 | 2 | 1 | 2 | 0 |
-| last180d | 2026-05-31 | 0 | 0 | 2 | 1 | 2 | 0 |
-| 360d | 2025-12-02 | 0 | 0 | 5 | 1 | 2 | 0 |
-| last720d | 2024-12-07 | 0 | 0 | 7 | 2 | 9 | 0 |
+| 30d | 2026-10-29 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-09-29 | 0 | 0 | 2 | 0 | 1 | 0 |
+| 90d | 2026-08-30 | 0 | 0 | 2 | 1 | 2 | 0 |
+| last180d | 2026-06-01 | 0 | 0 | 2 | 1 | 2 | 0 |
+| 360d | 2025-12-03 | 0 | 0 | 5 | 1 | 2 | 0 |
+| last720d | 2024-12-08 | 0 | 0 | 7 | 2 | 9 | 0 |
 
 ## Release 资产
 
@@ -62,21 +62,6 @@ x install jless
 | [jless-v0.9.0-aarch64-apple-darwin.zip](https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-aarch64-apple-darwin.zip) | 1.1 MiB | `native/darwin/arm64` |
 | [jless-v0.9.0-x86_64-apple-darwin.zip](https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-apple-darwin.zip) | 978.8 KiB | `native/darwin/x64` |
 | [jless-v0.9.0-x86_64-unknown-linux-gnu.zip](https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-unknown-linux-gnu.zip) | 1.1 MiB | `native/linux/x64/glibc` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/jless) 上共有 **42** 个发行版报告此项目。**39** 个 ✅ 已是最新上游版本，**3** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `0.9.0` | ✅ latest |
-| Debian 14 | `0.9.0` | ✅ latest |
-| Arch | `0.9.0` | ✅ latest |
-| Homebrew | `0.9.0` | ✅ latest |
-| Nix unstable | `0.9.0` | ✅ latest |
-| Void | `0.9.0` | ✅ latest |
-| Alpine edge | `0.9.0` | ✅ latest |
-| openSUSE Tumbleweed | `0.9.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -87,4 +72,4 @@ jless 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T09:19:09Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T09:10:29Z._
